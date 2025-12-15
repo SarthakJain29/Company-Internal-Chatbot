@@ -35,5 +35,5 @@ export async function indexDocument(filePath) {
   const allSplits = await textSplitter.splitDocuments(doc); //splitting the doc into chunks
   const pureTexts = allSplits.map((chunk) => chunk.pageContent);
 
-  await vectorStore.addDocuments(allSplits);
+  await vectorStore.addDocuments(allSplits);  //making embeddings and storing in vector db
 }

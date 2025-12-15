@@ -1,7 +1,7 @@
 RAG Implementation plan
 
 Stage 1: Indexing
-1. Load the document - pdf, excel, text
+1. Load the document - any pdf, excel, text
 2. Chunk the document
 3. Generate vector embeddings via embedding models
 4. Store them in vector database
